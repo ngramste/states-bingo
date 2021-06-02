@@ -1,0 +1,139 @@
+﻿*
+{
+  /* clear the default margins and padding */
+  margin:0px;
+  padding:0px;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article
+{
+  display: block;
+}
+
+html
+{
+  font-family:sans-serif;
+  color:white;
+}
+
+body
+{
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image:url(../imgs/4K-Wallpaper.jpg);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-color:black;
+  background-position:center;
+  overflow-y: scroll;
+}
+
+form
+{
+  margin:10px;
+  font-size:12pt;
+}
+
+a
+{
+  color:white;
+}
+
+a:hover
+{
+  color:red;
+  text-decoration:underline;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+h3
+{
+  font-size:18pt;
+  margin: 0pt 0pt 4pt 0pt;
+}
+
+h4
+{
+  font-size:14pt;
+  margin: 4pt 0pt 4pt 0pt;
+}
+
+p
+{
+  font-size:12pt;
+  overflow:none;
+  background:linear-gradient(transparent 150px, white);
+}
+
+
+
+.button
+{
+  color:rgb(255, 150, 96);
+  background-color:white;
+  width:110px;
+  height:38px;
+  text-align:center;
+  margin: 20px;
+  border-style:solid;
+  border-color:rgb(255, 150, 96);
+  border-width:3px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.button:hover
+{
+  color:white;
+  background-color:rgb(255, 150, 96);
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.button a
+{
+  text-decoration:none;
+  font-size:18pt;
+  color:rgb(255, 150, 96);
+  margin: 0px;
+}
+
+.button:hover a
+{
+  text-decoration:none;
+  font-size:18pt;
+  color:white;
+  margin: 0px;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.button h3
+{
+  margin: 4px;
+}
+
+#previous
+{
+  float:left;
+}
+
+#next
+{
+  float:right;
+}
+
+#home
+{
+  float:left;
+}
+
+#random
+{
+  float:right;
+}
